@@ -17,20 +17,34 @@ small_elevation_array =  get_2d_array('elevation_small.txt')   # creating variab
 
 # try array action on simple example
 
-# simple_array = [['1', '2', '3', '4', '5'],
-# 				['1', '2', '3', '4', '5'],
-# 				['1', '2', '3', '4', '5'],
-# 				['9', '8', '7', '6', '5']]
+simple_array = [['1', '2', '3', '4', '5'],
+				['1', '2', '3', '4', '5'],
+				['1', '2', '3', '4', '5'],
+				['9', '8', '7', '6', '5']]
 
-# simple_int_array = [[int(number) for number in row] for row in simple_array]
+simple_int_array = [[int(number) for number in row] for row in simple_array]
 
-# #print(simple_int_array)
+#print(simple_int_array)
 
-# mins = [min(row) for row in simple_int_array]
-# smallest_min = min(mins)
-# # print(smallest_min)
+mins = [min(row) for row in simple_int_array]
+smallest_min = min(mins)
+# print(smallest_min)
 
-# maxs = [max(row) for row in simple_int_array]
-# biggest_min = max(maxs)
+maxs = [max(row) for row in simple_int_array]
+biggest_min = max(maxs)
 
-# print(biggest_min)
+print(biggest_min)
+
+# from lecture 
+# min_diff - min(diffs)
+# min_diff_index = diffs.index(min_diff)
+# possible_ys = 
+
+# current x = 0
+#         while .> 
+
+# while cur_x <len(elevation[0] - 1:
+#         possible_ys = [cur_y]
+#         if cur_y -1 >= 0:
+#                 possible_ys.append(cur_y -1)
+# )
