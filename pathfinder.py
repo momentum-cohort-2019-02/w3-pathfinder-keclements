@@ -1,3 +1,20 @@
+from PIL import Image, 
+
+def main( ): 
+
+	size =width, height = 320, 240;
+	image = Image.new("RGB", size, "white")
+	image.show()
+
+	del Image;
+
+if ( __name__ == "__main__"):
+# ImageFilter
+
+
+
+
+
 
 def get_2d_array(text_file):
     with open(text_file) as file:
@@ -21,7 +38,7 @@ simple_array = [['1', '2', '3', '4', '5'],
 		['1', '2', '3', '4', '5'],
 		['9', '8', '7', '6', '5']]
 
-simple_int_array = [[int(number) for number in row] for row in simple_array]
+simple_int_array = [[int(number) for number in nrow] for row in simple_array]
 
 #print(simple_int_array)
 
@@ -49,3 +66,7 @@ biggest_min = max(maxs)
 #         if cur_y -1 >= 0:
 #                 possible_ys.append(cur_y -1)
 # )
+
+
+def thing():
+        if otherthing 

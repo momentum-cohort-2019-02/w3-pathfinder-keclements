@@ -1,5 +1,10 @@
-
-
+## Break down the tasks into simple parts
+#### Make a image
+1. create black image using pillow
+2. change the color of that file
+3. break it down into black and white blocks 600 pixels
+4. chnage that into grey scale
+5. 
 
 
 ---
@@ -94,3 +99,6 @@ Note that our greedy lowest-elevation-change algorithm is flawed. It is not guar
 ## Credit
 
 Adapted from [Nifty Assignments -- Mountain Paths](http://nifty.stanford.edu/2016/franke-mountain-paths/).
+
+
+def 
