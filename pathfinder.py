@@ -65,8 +65,3 @@ biggest_min = max(maxs)
 #         possible_ys = [cur_y]
 #         if cur_y -1 >= 0:
 #                 possible_ys.append(cur_y -1)
-# )
-
-
-def thing():
-        if otherthing 
