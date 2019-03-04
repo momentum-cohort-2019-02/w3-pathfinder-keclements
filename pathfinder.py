@@ -1,40 +1,14 @@
-from PIL import Image
+from PIL import Image, ImageColor
 
-# Use Object Oriented programming patadigm
-
-
-
-def get_2d_array(text_file):
-    with open(text_file) as file:
-        elevation_list = [line.split() for line in file]
-        #print(elevation_list)
-        # print(f'The length is{len(elevation_list[0]) }')
-        # return elevation_list
-
-#
-small_elevation_array =  get_2d_array('elevation_small.txt')   # creating variable to function get_2d_array
-
-# use function get_2d_array calling it by its new variable name small_elevation_list
-
-#try array action on simple example
-
-simple_array = [['1', '2', '3', '4', '5'],
-		['1', '2', '3', '4', '5'],
-		['1', '2', '3', '4', '5'],
-		['9', '8', '7', '6', '5']]
-
-simple_int_array = [[int(number) for number in nrow] for row in simple_array]
-        #print(simple_int_array)
-
-mins = [min(row) for row in simple_int_array]   # NAMING LOL
-
-smallest_min = min(mins)
-        # print(smallest_min)
-
-maxs = [max(row) for row in simple_int_array]
-biggest_min = max(maxs)
-        #print(biggest_min)
-        # >>> 9 (output)
-
-# Class Structure
-class 
+im = Image.new('RGBA', (600, 600))  
+im.getpixel((0,0))
+for x in range(100):
+		for y in range(600):
+			im.putpixel((x,y), (210,210,210))
+for x in range(100):
+		for y in range(600, 600):
+			im.putpixel((x,y), ImageColor.getcolor('darkgray', 'RGBA'))
+			im.getpixel((0,0))
+			im.getpixel((0,50))
+			im.save('putPixel.png')
+#im.save('whiteImage.png')
