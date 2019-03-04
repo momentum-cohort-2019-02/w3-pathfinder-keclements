@@ -1,3 +1,12 @@
+- Data is in text file
+- put data into data structure 
+ 
+
+
+
+
+
+
 ## Break down the tasks into simple parts
 #### Make a image
 1. create black image using pillow
