@@ -42,4 +42,4 @@ biggest_min = max(maxs)
         # >>> 9 (output)
 
 # Class Structure
-class 
+#class 
